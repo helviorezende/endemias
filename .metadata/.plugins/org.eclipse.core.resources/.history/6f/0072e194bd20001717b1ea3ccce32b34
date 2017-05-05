@@ -1,0 +1,26 @@
+package org.wpattern.test.helviorezende.endemias.repositories;
+
+import org.apache.log4j.Logger;
+import org.junit.Test;
+import org.omg.PortableInterceptor.LOCATION_FORWARD;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.wpattern.helviorezende.endemias.user.UserRepository;
+import org.wpattern.test.helviorezende.endemias.utils.AbstractTest;
+
+import antlr.collections.List;
+
+public class UserRepositoryTest extends AbstractTest {
+	
+	private static final Logger LOGGER = Logger.getLogger(UserRepositoryTest.class);
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Test
+	public void testFindAll(){
+		List<UserEntity> users = this.userRepository.findAll();
+		
+		LOGGER.info(users);
+	}
+
+}

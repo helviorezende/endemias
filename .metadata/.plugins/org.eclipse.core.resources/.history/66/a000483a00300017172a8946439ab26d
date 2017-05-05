@@ -1,0 +1,5 @@
+package org.wpattern.helviorezende.endemias.userpermission;
+
+public class UserPermissionEntity {
+
+}

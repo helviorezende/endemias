@@ -1,0 +1,6 @@
+package org.wpattern.test.helviorezende.endemias.repositories;
+
+public class PermissionRespositoryTest extends AbstractTest{
+	private static final 
+
+}

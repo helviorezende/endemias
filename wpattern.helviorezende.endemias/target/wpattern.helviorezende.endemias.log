@@ -1,0 +1,843 @@
+2017-04-19 23:08:21.407  INFO 4064 --- [main] wpattern.helviorezende.endemias.AppMain  : Starting AppMain on Usuario-PC with PID 4064 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-04-19 23:08:21.407  INFO 4064 --- [main] wpattern.helviorezende.endemias.AppMain  : No active profile set, falling back to default profiles: default
+2017-04-19 23:08:29.255  INFO 4064 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-19 23:08:29.255  INFO 4064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-04-19 23:08:29.631  INFO 4064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-19 23:08:37.106  INFO 4064 --- [main] wpattern.helviorezende.endemias.AppMain  : Started AppMain in 17.895 seconds (JVM running for 22.369)
+2017-04-29 23:38:12.558  INFO 3872 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 3872 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-04-29 23:38:12.582 DEBUG 3872 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-04-29 23:38:12.583  INFO 3872 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-04-29 23:38:22.877  INFO 3872 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 12.526 seconds (JVM running for 18.872)
+2017-04-29 23:38:22.911 ERROR 3872 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3dd4520b] to prepare test instance [org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest@1d29cf23]
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.wpattern.helviorezende.endemias.user.UserRepository org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest.userRepository; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.wpattern.helviorezende.endemias.user.UserRepository] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.wpattern.helviorezende.endemias.user.UserRepository org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest.userRepository; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.wpattern.helviorezende.endemias.user.UserRepository] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.wpattern.helviorezende.endemias.user.UserRepository] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1373) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1119) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 28 common frames omitted
+
+2017-05-01 22:45:04.204  INFO 3860 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 3860 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-01 22:45:04.227 DEBUG 3860 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-01 22:45:04.227  INFO 3860 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-01 22:45:14.401  INFO 3860 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 12.358 seconds (JVM running for 16.729)
+2017-05-01 22:45:14.423 ERROR 3860 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3dd4520b] to prepare test instance [org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest@1d29cf23]
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.wpattern.helviorezende.endemias.user.UserRepository org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest.userRepository; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.wpattern.helviorezende.endemias.user.UserRepository] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.wpattern.helviorezende.endemias.user.UserRepository org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest.userRepository; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.wpattern.helviorezende.endemias.user.UserRepository] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.wpattern.helviorezende.endemias.user.UserRepository] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1373) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1119) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 28 common frames omitted
+
+2017-05-01 22:50:18.474  INFO 1132 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 1132 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-01 22:50:18.475 DEBUG 1132 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-01 22:50:18.476  INFO 1132 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-01 22:50:25.802  WARN 1132 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2017-05-01 22:50:25.829 ERROR 1132 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 40 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: org.wpattern.helviorezende.endemias.paciente.PacienteEntity.logradouroPaciente[org.wpattern.helviorezende.endemias.logradouro.LogradouroEntity]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1135) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:794) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:729) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:70) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.originalSecondPassCompile(Configuration.java:1697) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1426) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 48 common frames omitted
+
+2017-05-01 22:50:25.841 ERROR 1132 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3dd4520b] to prepare test instance [org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest@1d29cf23]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 25 common frames omitted
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 40 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: org.wpattern.helviorezende.endemias.paciente.PacienteEntity.logradouroPaciente[org.wpattern.helviorezende.endemias.logradouro.LogradouroEntity]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1135) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:794) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:729) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:70) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.originalSecondPassCompile(Configuration.java:1697) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1426) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 48 common frames omitted
+
+2017-05-01 23:01:08.138  INFO 4484 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 4484 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-01 23:01:08.140 DEBUG 4484 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-01 23:01:08.140  INFO 4484 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-01 23:01:15.235  WARN 4484 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2017-05-01 23:01:15.256 ERROR 4484 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 40 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: org.wpattern.helviorezende.endemias.paciente.PacienteEntity.logradouroPaciente[org.wpattern.helviorezende.endemias.logradouro.LogradouroEntity]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1135) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:794) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:729) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:70) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.originalSecondPassCompile(Configuration.java:1697) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1426) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 48 common frames omitted
+
+2017-05-01 23:01:15.256 ERROR 4484 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3dd4520b] to prepare test instance [org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest@1d29cf23]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 25 common frames omitted
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 40 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: org.wpattern.helviorezende.endemias.paciente.PacienteEntity.logradouroPaciente[org.wpattern.helviorezende.endemias.logradouro.LogradouroEntity]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1135) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:794) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:729) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:70) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.originalSecondPassCompile(Configuration.java:1697) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1426) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 48 common frames omitted
+
+2017-05-02 21:08:40.634  INFO 4640 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 4640 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-02 21:08:40.655 DEBUG 4640 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-02 21:08:40.656  INFO 4640 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-02 21:09:00.325  WARN 4640 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+2017-05-02 21:09:00.384 ERROR 4640 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 40 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: org.wpattern.helviorezende.endemias.paciente.PacienteEntity.logradouroPaciente[org.wpattern.helviorezende.endemias.logradouro.LogradouroEntity]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1135) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:794) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:729) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:70) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.originalSecondPassCompile(Configuration.java:1697) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1426) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 48 common frames omitted
+
+2017-05-02 21:09:00.410 ERROR 4640 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@28eaa59a] to prepare test instance [org.wpattern.test.helviorezende.endemias.repositories.UserRepositoryTest@6ad82709]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:228) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:230) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:249) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:193) [spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.test.SpringApplicationContextLoader.loadContext(SpringApplicationContextLoader.java:98) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 25 common frames omitted
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:1249) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.access$600(EntityManagerFactoryBuilderImpl.java:120) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:860) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 40 common frames omitted
+Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany targeting an unmapped class: org.wpattern.helviorezende.endemias.paciente.PacienteEntity.logradouroPaciente[org.wpattern.helviorezende.endemias.logradouro.LogradouroEntity]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindManyToManySecondPass(CollectionBinder.java:1135) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:794) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:729) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:70) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.originalSecondPassCompile(Configuration.java:1697) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1426) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1846) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	... 48 common frames omitted
+
+2017-05-02 21:16:18.353  INFO 3988 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 3988 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-02 21:16:18.356 DEBUG 3988 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-02 21:16:18.358  INFO 3988 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-02 21:17:05.640  INFO 3988 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 52.127 seconds (JVM running for 58.852)
+2017-05-02 21:17:11.773  INFO 3988 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Test FindAll(): [org.wpattern.helviorezende.endemias.user.UserEntity@31f31b20[
+  name=Admin
+  email=admin@admin.com
+  password=admin
+  id=1
+], org.wpattern.helviorezende.endemias.user.UserEntity@350bbd5d[
+  name=User
+  email=user@user.com
+  password=user
+  id=2
+]]
+2017-05-02 21:47:58.020  INFO 4728 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 4728 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-02 21:47:58.022 DEBUG 4728 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-02 21:47:58.022  INFO 4728 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-02 21:48:07.874  INFO 4728 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 10.887 seconds (JVM running for 12.83)
+2017-05-02 21:48:08.401  INFO 4728 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Test FindAll(): [org.wpattern.helviorezende.endemias.user.UserEntity@194911c1[
+  name=Admin
+  email=admin@admin.com
+  password=admin
+  id=1
+], org.wpattern.helviorezende.endemias.user.UserEntity@194b9783[
+  name=User
+  email=user@user.com
+  password=user
+  id=2
+]]
+2017-05-02 21:50:46.890  INFO 4144 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 4144 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-02 21:50:46.891 DEBUG 4144 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-02 21:50:46.893  INFO 4144 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-02 21:50:57.009  INFO 4144 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 10.837 seconds (JVM running for 12.289)
+2017-05-02 21:50:57.538  INFO 4144 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Test FindAll(): [org.wpattern.helviorezende.endemias.user.UserEntity@7198ab9a[
+  name=Admin
+  email=admin@admin.com
+  password=admin
+  id=1
+], org.wpattern.helviorezende.endemias.user.UserEntity@443af394[
+  name=User
+  email=user@user.com
+  password=user
+  id=2
+]]
+2017-05-02 21:52:47.653  INFO 3568 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 3568 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-02 21:52:47.654 DEBUG 3568 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-02 21:52:47.654  INFO 3568 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-02 21:52:55.920  INFO 3568 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 9.122 seconds (JVM running for 10.244)
+2017-05-02 21:52:56.362  INFO 3568 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Test FindAll(): [org.wpattern.helviorezende.endemias.user.UserEntity@57a6a933[
+  name=Admin
+  email=admin@admin.com
+  password=admin
+  id=1
+], org.wpattern.helviorezende.endemias.user.UserEntity@33f17289[
+  name=User
+  email=user@user.com
+  password=user
+  id=2
+]]
+2017-05-03 23:18:42.218  INFO 1524 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Starting UserRepositoryTest on Usuario-PC with PID 1524 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-03 23:18:42.236 DEBUG 1524 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-03 23:18:42.237  INFO 1524 --- [main] o.w.t.h.e.r.UserRepositoryTest           : No active profile set, falling back to default profiles: default
+2017-05-03 23:18:52.972  WARN 1524 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-03 23:18:56.437  INFO 1524 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Started UserRepositoryTest in 16.707 seconds (JVM running for 19.335)
+2017-05-03 23:18:57.367  INFO 1524 --- [main] o.w.t.h.e.r.UserRepositoryTest           : Test FindAll(): [org.wpattern.helviorezende.endemias.user.UserEntity@45b32dfe[
+  name=Admin
+  email=admin@admin.com
+  password=admin
+  id=1
+], org.wpattern.helviorezende.endemias.user.UserEntity@61874b9d[
+  name=User
+  email=user@user.com
+  password=user
+  id=2
+]]
+2017-05-03 23:20:05.318  INFO 3196 --- [main] o.w.t.h.e.r.PermissionRepositoryTest     : Starting PermissionRepositoryTest on Usuario-PC with PID 3196 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-03 23:20:05.325 DEBUG 3196 --- [main] o.w.t.h.e.r.PermissionRepositoryTest     : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-03 23:20:05.326  INFO 3196 --- [main] o.w.t.h.e.r.PermissionRepositoryTest     : No active profile set, falling back to default profiles: default
+2017-05-03 23:20:13.330  WARN 3196 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-03 23:20:16.236  INFO 3196 --- [main] o.w.t.h.e.r.PermissionRepositoryTest     : Started PermissionRepositoryTest in 11.789 seconds (JVM running for 13.478)
+2017-05-03 23:20:17.073  INFO 3196 --- [main] o.w.t.h.e.r.PermissionRepositoryTest     : [org.wpattern.helviorezende.endemias.permission.PermissionEntity@6f5e16cf[
+  role=ROLE_ADMIN
+  id=1
+], org.wpattern.helviorezende.endemias.permission.PermissionEntity@6cfbbff7[
+  role=ROLE_USER
+  id=2
+]]
+2017-05-03 23:38:08.548  INFO 928 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : Starting UserPermissionRepositoryTest on Usuario-PC with PID 928 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-03 23:38:08.549 DEBUG 928 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-03 23:38:08.550  INFO 928 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-03 23:38:15.069  WARN 928 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-03 23:38:17.393  INFO 928 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : Started UserPermissionRepositoryTest in 9.51 seconds (JVM running for 10.722)
+2017-05-03 23:38:17.933  INFO 928 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : [org.wpattern.helviorezende.endemias.userpermission.UserPermissionEntity@839df62[
+  id=org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey@488f3dd1[
+  permissionId=1
+  userId=1
+]
+], org.wpattern.helviorezende.endemias.userpermission.UserPermissionEntity@67cffead[
+  id=org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey@2091833[
+  permissionId=2
+  userId=1
+]
+], org.wpattern.helviorezende.endemias.userpermission.UserPermissionEntity@214beff9[
+  id=org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey@7bc58891[
+  permissionId=2
+  userId=2
+]
+]]
+2017-05-04 00:16:48.229  INFO 5948 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : Starting UserPermissionRepositoryTest on Usuario-PC with PID 5948 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 00:16:48.233 DEBUG 5948 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 00:16:48.235  INFO 5948 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-04 00:16:55.535  WARN 5948 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 00:16:58.346  INFO 5948 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : Started UserPermissionRepositoryTest in 10.87 seconds (JVM running for 12.073)
+2017-05-04 00:16:58.806  INFO 5948 --- [main] o.w.t.h.e.r.UserPermissionRepositoryTest : [org.wpattern.helviorezende.endemias.userpermission.UserPermissionEntity@574059d5[
+  id=org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey@2ec99035[
+  permissionId=1
+  userId=1
+]
+], org.wpattern.helviorezende.endemias.userpermission.UserPermissionEntity@72906e[
+  id=org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey@60743cdb[
+  permissionId=2
+  userId=1
+]
+], org.wpattern.helviorezende.endemias.userpermission.UserPermissionEntity@5529ff44[
+  id=org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey@c02670f[
+  permissionId=2
+  userId=2
+]
+]]
+2017-05-04 21:30:14.380  INFO 1984 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 1984 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:30:14.400 DEBUG 1984 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:30:14.400  INFO 1984 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:30:22.466  WARN 1984 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:30:25.367  INFO 1984 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 12.524 seconds (JVM running for 15.5)
+2017-05-04 21:30:25.955  INFO 1984 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Test FindAll(): []
+2017-05-04 21:39:49.450  INFO 4852 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 4852 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:39:49.451 DEBUG 4852 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:39:49.452  INFO 4852 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:39:56.200  WARN 4852 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:39:58.445  INFO 4852 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 9.858 seconds (JVM running for 11.282)
+2017-05-04 21:39:58.793  INFO 4852 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@67bf0480[
+  NmExameNs1=positivo
+  id=1
+] 
+2017-05-04 21:41:00.167  INFO 1112 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 1112 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:41:00.169 DEBUG 1112 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:41:00.169  INFO 1112 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:41:06.796  WARN 1112 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:41:09.027  INFO 1112 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 9.554 seconds (JVM running for 10.873)
+2017-05-04 21:41:09.468  INFO 1112 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@5482bcac[
+  NmExameNs1=positivo
+  id=1
+]]
+2017-05-04 21:41:09.603  INFO 1112 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@684e8c9d[
+  NmExameNs1=negativo
+  id=2
+] 
+2017-05-04 21:41:36.975  INFO 2204 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 2204 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:41:36.985 DEBUG 2204 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:41:36.986  INFO 2204 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:41:43.764  WARN 2204 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:41:45.896  INFO 2204 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 9.6 seconds (JVM running for 10.689)
+2017-05-04 21:41:46.349  INFO 2204 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@4a9860[
+  NmExameNs1=positivo
+  id=1
+], org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@691500ab[
+  NmExameNs1=negativo
+  id=2
+]]
+2017-05-04 21:41:46.440  INFO 2204 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@5a7df831[
+  NmExameNs1=inconclusivo
+  id=3
+] 
+2017-05-04 21:42:21.121  INFO 4452 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 4452 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:42:21.122 DEBUG 4452 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:42:21.123  INFO 4452 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:42:27.544  WARN 4452 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:42:29.713  INFO 4452 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 9.365 seconds (JVM running for 10.584)
+2017-05-04 21:42:29.939  INFO 4452 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@662e682a[
+  NmExameNs1=não realizado
+  id=4
+] 
+2017-05-04 21:42:38.213  INFO 972 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 972 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:42:38.213 DEBUG 972 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:42:38.213  INFO 972 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:42:45.389  WARN 972 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:42:47.485  INFO 972 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 9.968 seconds (JVM running for 11.047)
+2017-05-04 21:42:47.706  INFO 972 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@ab24484[
+  NmExameNs1=não realizado
+  id=5
+] 
+2017-05-04 21:46:45.864  INFO 3976 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Starting ExameNs1RepositoryTest on Usuario-PC with PID 3976 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 21:46:45.864 DEBUG 3976 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 21:46:45.864  INFO 3976 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 21:46:53.012  WARN 3976 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 21:46:55.310  INFO 3976 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Started ExameNs1RepositoryTest in 10.151 seconds (JVM running for 11.301)
+2017-05-04 21:46:56.514  INFO 3976 --- [main] o.w.t.h.e.r.ExameNs1RepositoryTest       : Examens1 delete: [org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@ee8e7ff[
+  NmExameNs1=positivo
+  id=1
+], org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@61a2aeb7[
+  NmExameNs1=negativo
+  id=2
+], org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@64b70f41[
+  NmExameNs1=inconclusivo
+  id=3
+], org.wpattern.helviorezende.endemias.examens1entity.ExameNs1Entity@5f8d9767[
+  NmExameNs1=não realizado
+  id=4
+]]
+2017-05-04 22:06:33.859  INFO 3008 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Starting ExamePcrRepositoryTest on Usuario-PC with PID 3008 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:06:33.860 DEBUG 3008 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:06:33.861  INFO 3008 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 22:06:39.612  WARN 3008 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:06:42.410  INFO 3008 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Started ExamePcrRepositoryTest in 9.292 seconds (JVM running for 10.565)
+2017-05-04 22:06:42.809  INFO 3008 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): []
+2017-05-04 22:06:56.866  INFO 4648 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Starting ExamePcrRepositoryTest on Usuario-PC with PID 4648 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:06:56.868 DEBUG 4648 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:06:56.870  INFO 4648 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 22:07:03.868  WARN 4648 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:07:06.095  INFO 4648 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Started ExamePcrRepositoryTest in 9.958 seconds (JVM running for 11.086)
+2017-05-04 22:07:06.317  INFO 4648 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity@f0a66bd[
+  NmResulPcr=positivo
+  id=1
+] 
+2017-05-04 22:07:39.061  INFO 3864 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Starting ExamePcrRepositoryTest on Usuario-PC with PID 3864 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:07:39.062 DEBUG 3864 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:07:39.063  INFO 3864 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 22:07:46.362  WARN 3864 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:07:48.635  INFO 3864 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Started ExamePcrRepositoryTest in 10.223 seconds (JVM running for 11.378)
+2017-05-04 22:07:48.873  INFO 3864 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity@5df63359[
+  NmResulPcr=negativo
+  id=2
+] 
+2017-05-04 22:08:08.515  INFO 3000 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Starting ExamePcrRepositoryTest on Usuario-PC with PID 3000 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:08:08.516 DEBUG 3000 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:08:08.517  INFO 3000 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 22:08:14.822  WARN 3000 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:08:17.253  INFO 3000 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Started ExamePcrRepositoryTest in 9.368 seconds (JVM running for 10.572)
+2017-05-04 22:08:17.687  INFO 3000 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity@7f85217c[
+  NmResulPcr=positivo
+  id=1
+], org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity@6436e181[
+  NmResulPcr=negativo
+  id=2
+]]
+2017-05-04 22:08:17.815  INFO 3000 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity@715a70e9[
+  NmResulPcr=inconclusivo
+  id=3
+] 
+2017-05-04 22:08:40.190  INFO 2836 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Starting ExamePcrRepositoryTest on Usuario-PC with PID 2836 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:08:40.191 DEBUG 2836 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:08:40.192  INFO 2836 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-04 22:08:46.875  WARN 2836 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:08:49.372  INFO 2836 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Started ExamePcrRepositoryTest in 9.971 seconds (JVM running for 11.037)
+2017-05-04 22:08:51.305  INFO 2836 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity@2792b416[
+  NmResulPcr=não realizado
+  id=4
+] 
+2017-05-04 22:25:52.410  INFO 4608 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Starting ExameViralRepositoryTest on Usuario-PC with PID 4608 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:25:52.411 DEBUG 4608 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:25:52.412  INFO 4608 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : No active profile set, falling back to default profiles: default
+2017-05-04 22:25:59.046  WARN 4608 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:26:01.526  INFO 4608 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Started ExameViralRepositoryTest in 9.85 seconds (JVM running for 11.188)
+2017-05-04 22:26:01.948  INFO 4608 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Test FindAll(): []
+2017-05-04 22:32:06.386  INFO 4768 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Starting ExameViralRepositoryTest on Usuario-PC with PID 4768 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:32:06.387 DEBUG 4768 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:32:06.388  INFO 4768 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : No active profile set, falling back to default profiles: default
+2017-05-04 22:32:13.687  WARN 4768 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:32:16.159  INFO 4768 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Started ExameViralRepositoryTest in 10.523 seconds (JVM running for 11.599)
+2017-05-04 22:32:16.605  INFO 4768 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Test FindAll(): []
+2017-05-04 22:32:16.761  INFO 4768 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@7a9ceddf[
+  NmResulVi=positivo
+  id=1
+] 
+2017-05-04 22:32:32.877  INFO 656 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Starting ExameViralRepositoryTest on Usuario-PC with PID 656 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:32:32.878 DEBUG 656 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:32:32.878  INFO 656 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : No active profile set, falling back to default profiles: default
+2017-05-04 22:32:39.620  WARN 656 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:32:42.062  INFO 656 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Started ExameViralRepositoryTest in 9.896 seconds (JVM running for 10.981)
+2017-05-04 22:32:42.509  INFO 656 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Test FindAll(): [org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@58324c9f[
+  NmResulVi=positivo
+  id=1
+]]
+2017-05-04 22:32:42.701  INFO 656 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@40d52be7[
+  NmResulVi=negativo
+  id=2
+] 
+2017-05-04 22:33:00.924  INFO 648 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Starting ExameViralRepositoryTest on Usuario-PC with PID 648 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:33:00.926 DEBUG 648 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:33:00.926  INFO 648 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : No active profile set, falling back to default profiles: default
+2017-05-04 22:33:07.303  WARN 648 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:33:09.951  INFO 648 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Started ExameViralRepositoryTest in 10.168 seconds (JVM running for 11.213)
+2017-05-04 22:33:10.224  INFO 648 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@a7cf42f[
+  NmResulVi=inconclusivo
+  id=3
+] 
+2017-05-04 22:33:28.876  INFO 4496 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Starting ExameViralRepositoryTest on Usuario-PC with PID 4496 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-04 22:33:28.877 DEBUG 4496 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-04 22:33:28.878  INFO 4496 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : No active profile set, falling back to default profiles: default
+2017-05-04 22:33:35.662  WARN 4496 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-04 22:33:38.333  INFO 4496 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Started ExameViralRepositoryTest in 10.135 seconds (JVM running for 11.238)
+2017-05-04 22:33:38.818  INFO 4496 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : Test FindAll(): [org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@3b009e7b[
+  NmResulVi=positivo
+  id=1
+], org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@67fa5045[
+  NmResulVi=negativo
+  id=2
+], org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@6f347d7[
+  NmResulVi=inconclusivo
+  id=3
+]]
+2017-05-04 22:33:38.927  INFO 4496 --- [main] o.w.t.h.e.r.ExameViralRepositoryTest     : org.wpattern.helviorezende.endemias.exameviral.ExameViralEntity@67f63d26[
+  NmResulVi=não realizado
+  id=4
+] 

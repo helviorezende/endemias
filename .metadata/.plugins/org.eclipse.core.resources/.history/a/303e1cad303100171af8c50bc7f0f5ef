@@ -1,0 +1,5 @@
+package org.wpattern.helviorezende.endemias.exameviral;
+
+public interface ExameViralRepository extends JpaRepository<ExameViralEntity, Long>{
+
+}

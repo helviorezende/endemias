@@ -1,0 +1,10 @@
+package org.wpattern.helviorezende.endemias.permission;
+
+import org.wpattern.helviorezende.endemias.utils.BaseEntity;
+
+@Entity
+@Table(name = "tb_permission")
+
+public class PermissionEntity extends BaseEntity<Long>{
+
+}

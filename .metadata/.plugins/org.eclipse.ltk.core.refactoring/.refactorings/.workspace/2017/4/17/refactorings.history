@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;katania-spring-oauth2&apos;" deleteContents="true" description="Delete resource &apos;katania-spring-oauth2&apos;" element1="/katania-spring-oauth2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1493343098169"/>
+</session>

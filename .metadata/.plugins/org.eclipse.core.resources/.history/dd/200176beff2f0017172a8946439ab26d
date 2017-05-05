@@ -1,0 +1,9 @@
+package org.wpattern.helviorezende.endemias.utils;
+
+import java.io.Serializable;
+
+public abstract class BaseKey implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+
+}

@@ -1,0 +1,11 @@
+package org.wpattern.helviorezende.endemias.userpermission;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name = "tb_user_permission")
+public class UserPermissionEntity extends BaseEntity<Long>{
+	
+	private static final long serializeble
+
+}

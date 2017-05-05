@@ -1,0 +1,15 @@
+package org.wpattern.helviorezende.endemias.utils;
+
+
+
+public final class ServicePath {
+	public static final String All = "/**";
+	
+	public static final String ROOT_PATH = "/api";
+	
+	public static final PUBLIC_ROOT_PATH = ROOT_PATH + "/public";
+	
+	
+	
+
+}

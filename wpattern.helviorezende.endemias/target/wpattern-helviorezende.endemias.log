@@ -1,0 +1,21 @@
+2017-04-06 22:31:07.401  INFO 5660 --- [main] wpattern.helviorezende.endemias.AppMain  : Starting AppMain on Usuario-PC with PID 5660 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-04-06 22:31:07.460  INFO 5660 --- [main] wpattern.helviorezende.endemias.AppMain  : No active profile set, falling back to default profiles: default
+2017-04-06 22:31:08.474  WARN 5660 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+2017-04-06 22:31:08.501 ERROR 5660 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:133) ~[spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532) ~[spring-context-4.2.4.RELEASE.jar:4.2.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.getEmbeddedServletContainerFactory(EmbeddedWebApplicationContext.java:185) ~[spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.createEmbeddedServletContainer(EmbeddedWebApplicationContext.java:158) ~[spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.onRefresh(EmbeddedWebApplicationContext.java:130) ~[spring-boot-1.3.2.RELEASE.jar:1.3.2.RELEASE]
+	... 8 common frames omitted
+
