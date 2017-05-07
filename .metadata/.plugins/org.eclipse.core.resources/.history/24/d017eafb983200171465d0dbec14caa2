@@ -1,0 +1,8 @@
+package org.wpattern.helviorezende.endemias.histopatologia;
+
+
+
+public interface HistopatologiaRepository extends JpaRepository <HistopatologiaEntity, Long>
+{
+
+}

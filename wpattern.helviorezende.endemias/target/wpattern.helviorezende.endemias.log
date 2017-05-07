@@ -841,3 +841,232 @@ Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany t
   NmResulVi=não realizado
   id=4
 ] 
+2017-05-06 10:33:45.254  INFO 2044 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 2044 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 10:33:45.274 DEBUG 2044 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 10:33:45.274  INFO 2044 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 10:33:52.632  WARN 2044 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 10:33:55.264  INFO 2044 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 11.027 seconds (JVM running for 13.394)
+2017-05-06 10:33:55.682  INFO 2044 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): []
+2017-05-06 10:34:54.969  INFO 2756 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 2756 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 10:34:54.971 DEBUG 2756 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 10:34:54.971  INFO 2756 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 10:35:01.832  WARN 2756 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 10:35:04.504  INFO 2756 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.542 seconds (JVM running for 11.73)
+2017-05-06 10:35:04.907  INFO 2756 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): []
+2017-05-06 10:35:04.955  WARN 2756 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1452, SQLState: 23000
+2017-05-06 10:35:04.956 ERROR 2756 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot add or update a child row: a foreign key constraint fails (`bd_dengue`.`tb_sorotipo`, CONSTRAINT `sotoripo` FOREIGN KEY (`sorotipo`) REFERENCES `tb_exames_laboratoriais` (`id_investigacao`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-05-06 10:35:04.975  WARN 2756 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 1452, SQLState: 23000
+2017-05-06 10:35:04.976  WARN 2756 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot add or update a child row: a foreign key constraint fails (`bd_dengue`.`tb_sorotipo`, CONSTRAINT `sotoripo` FOREIGN KEY (`sorotipo`) REFERENCES `tb_exames_laboratoriais` (`id_investigacao`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-05-06 10:40:37.200  INFO 4476 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 4476 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 10:40:37.201 DEBUG 4476 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 10:40:37.202  INFO 4476 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 10:40:44.226  WARN 4476 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 10:40:46.670  INFO 4476 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.179 seconds (JVM running for 11.507)
+2017-05-06 10:40:47.047  INFO 4476 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): []
+2017-05-06 10:40:47.095  WARN 4476 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1452, SQLState: 23000
+2017-05-06 10:40:47.095 ERROR 4476 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot add or update a child row: a foreign key constraint fails (`bd_dengue`.`tb_sorotipo`, CONSTRAINT `sotoripo` FOREIGN KEY (`sorotipo`) REFERENCES `tb_exames_laboratoriais` (`id_investigacao`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-05-06 10:40:47.099  WARN 4476 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 1452, SQLState: 23000
+2017-05-06 10:40:47.100  WARN 4476 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot add or update a child row: a foreign key constraint fails (`bd_dengue`.`tb_sorotipo`, CONSTRAINT `sotoripo` FOREIGN KEY (`sorotipo`) REFERENCES `tb_exames_laboratoriais` (`id_investigacao`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+2017-05-06 11:06:37.516  INFO 4308 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 4308 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 11:06:37.518 DEBUG 4308 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 11:06:37.519  INFO 4308 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 11:06:44.094  WARN 4308 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 11:06:46.413  INFO 4308 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 9.52 seconds (JVM running for 10.748)
+2017-05-06 11:06:46.793  INFO 4308 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): []
+2017-05-06 11:06:46.969  INFO 4308 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@ee8e7ff[
+  NmSorotipo=DEN 1
+  id=3
+] 
+2017-05-06 11:36:58.996  INFO 2100 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 2100 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 11:36:58.997 DEBUG 2100 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 11:36:58.999  INFO 2100 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 11:37:05.214  WARN 2100 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 11:37:07.731  INFO 2100 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 9.921 seconds (JVM running for 11.498)
+2017-05-06 11:37:08.373  INFO 2100 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Sorotipo delete: []
+2017-05-06 11:37:34.781  INFO 1800 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 1800 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 11:37:34.782 DEBUG 1800 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 11:37:34.783  INFO 1800 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 11:37:41.441  WARN 1800 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 11:37:43.762  INFO 1800 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 9.746 seconds (JVM running for 11.632)
+2017-05-06 11:37:44.146  INFO 1800 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): []
+2017-05-06 11:38:17.351  INFO 2024 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 2024 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 11:38:17.352 DEBUG 2024 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 11:38:17.353  INFO 2024 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 11:38:23.662  WARN 2024 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 11:38:25.973  INFO 2024 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 9.296 seconds (JVM running for 10.604)
+2017-05-06 11:38:26.212  INFO 2024 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@634ff56[
+  NmSorotipo=DEN 1
+  id=4
+] 
+2017-05-06 16:39:06.649  INFO 2956 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 2956 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:39:06.667 DEBUG 2956 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:39:06.667  INFO 2956 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:39:15.494  WARN 2956 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:39:18.660  INFO 2956 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 13.173 seconds (JVM running for 17.009)
+2017-05-06 16:39:19.239  INFO 2956 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Update sorotipo: [org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@b791a81[
+  NmSorotipo=DEN 1
+  id=4
+]]
+2017-05-06 16:46:36.826  INFO 4900 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 4900 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:46:36.827 DEBUG 4900 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:46:36.827  INFO 4900 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:46:45.871  WARN 4900 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:46:48.347  INFO 4900 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 12.245 seconds (JVM running for 13.89)
+2017-05-06 16:46:48.850  INFO 4900 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@47829d6d[
+  NmSorotipo=DEN 1
+  id=4
+]]
+2017-05-06 16:46:48.970  INFO 4900 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@7c241a9f[
+  NmSorotipo=DEN 2
+  id=5
+] 
+2017-05-06 16:47:37.394  INFO 4880 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 4880 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:47:37.395 DEBUG 4880 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:47:37.395  INFO 4880 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:47:44.509  WARN 4880 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:47:47.011  INFO 4880 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.282 seconds (JVM running for 11.796)
+2017-05-06 16:47:47.445  INFO 4880 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@1e8fb66f[
+  NmSorotipo=DEN 1
+  id=4
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@49433c98[
+  NmSorotipo=DEN 2
+  id=5
+]]
+2017-05-06 16:47:47.685  INFO 4880 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@1eb9a3ef[
+  NmSorotipo=DEN 3
+  id=6
+] 
+2017-05-06 16:48:29.744  INFO 4512 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 4512 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:48:29.745 DEBUG 4512 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:48:29.746  INFO 4512 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:48:36.472  WARN 4512 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:48:39.390  INFO 4512 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.445 seconds (JVM running for 11.939)
+2017-05-06 16:49:15.439  INFO 3576 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 3576 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:49:15.440 DEBUG 3576 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:49:15.440  INFO 3576 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:49:22.254  WARN 3576 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:49:24.686  INFO 3576 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 9.861 seconds (JVM running for 11.034)
+2017-05-06 16:49:24.928  INFO 3576 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@5a484ce1[
+  NmSorotipo=DEN 4
+  id=7
+] 
+2017-05-06 16:49:55.138  INFO 1996 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 1996 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:49:55.139 DEBUG 1996 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:49:55.140  INFO 1996 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:50:02.399  WARN 1996 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:50:05.416  INFO 1996 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.931 seconds (JVM running for 12.212)
+2017-05-06 16:50:06.156  INFO 1996 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@75aea2ba[
+  NmSorotipo=DEN 1
+  id=4
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@7e64c1a9[
+  NmSorotipo=DEN 2
+  id=5
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@7fda2001[
+  NmSorotipo=DEN 3
+  id=6
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@162c1dfb[
+  NmSorotipo=DEN 4
+  id=7
+]]
+2017-05-06 16:55:21.825  INFO 4564 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 4564 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 16:55:21.856 DEBUG 4564 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 16:55:21.857  INFO 4564 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-06 16:55:28.637  WARN 4564 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 16:55:31.258  INFO 4564 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.121 seconds (JVM running for 11.907)
+2017-05-06 16:55:31.706  INFO 4564 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@7698b7a4[
+  NmSorotipo=DEN 1
+  id=1
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@3fbe503c[
+  NmSorotipo=DEN 2
+  id=2
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@3c232051[
+  NmSorotipo=DEN 3
+  id=3
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@15d0d6c9[
+  NmSorotipo=DEN 4
+  id=4
+]]
+2017-05-06 17:23:23.095  INFO 4624 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Starting HistopatologiaRepositoryTest on Usuario-PC with PID 4624 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 17:23:23.097 DEBUG 4624 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 17:23:23.098  INFO 4624 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 17:23:30.986  WARN 4624 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 17:23:34.222  INFO 4624 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Started HistopatologiaRepositoryTest in 12.15 seconds (JVM running for 13.754)
+2017-05-06 17:23:34.733  INFO 4624 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Test FindAll(): []
+2017-05-06 17:24:04.210  INFO 4180 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Starting HistopatologiaRepositoryTest on Usuario-PC with PID 4180 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 17:24:04.213 DEBUG 4180 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 17:24:04.214  INFO 4180 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 17:24:12.000  WARN 4180 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 17:24:14.901  INFO 4180 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Started HistopatologiaRepositoryTest in 11.866 seconds (JVM running for 13.252)
+2017-05-06 17:24:15.178  INFO 4180 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : org.wpattern.helviorezende.endemias.histopatologia.HistopatologiaEntity@2e4389ed[
+  NmHistopatologia=positivo
+  id=1
+] 
+2017-05-06 17:24:49.427  INFO 5016 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Starting HistopatologiaRepositoryTest on Usuario-PC with PID 5016 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 17:24:49.428 DEBUG 5016 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 17:24:49.429  INFO 5016 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 17:24:57.781  WARN 5016 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 17:25:00.820  INFO 5016 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Started HistopatologiaRepositoryTest in 12.37 seconds (JVM running for 13.809)
+2017-05-06 17:25:01.145  INFO 5016 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : org.wpattern.helviorezende.endemias.histopatologia.HistopatologiaEntity@2e4389ed[
+  NmHistopatologia=negativo
+  id=2
+] 
+2017-05-06 17:25:21.901  INFO 4460 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Starting HistopatologiaRepositoryTest on Usuario-PC with PID 4460 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 17:25:21.902 DEBUG 4460 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 17:25:21.903  INFO 4460 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 17:25:29.242  WARN 4460 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 17:25:32.563  INFO 4460 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Started HistopatologiaRepositoryTest in 11.637 seconds (JVM running for 13.202)
+2017-05-06 17:25:32.834  INFO 4460 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : org.wpattern.helviorezende.endemias.histopatologia.HistopatologiaEntity@6ea246af[
+  NmHistopatologia=inconclusivo
+  id=3
+] 
+2017-05-06 17:26:04.579  INFO 4712 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Starting HistopatologiaRepositoryTest on Usuario-PC with PID 4712 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 17:26:04.581 DEBUG 4712 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 17:26:04.582  INFO 4712 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 17:26:12.174  WARN 4712 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 17:26:15.031  INFO 4712 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : Started HistopatologiaRepositoryTest in 12.977 seconds (JVM running for 14.682)
+2017-05-06 17:26:15.470  INFO 4712 --- [main] o.w.t.h.e.r.HistopatologiaRepositoryTest : org.wpattern.helviorezende.endemias.histopatologia.HistopatologiaEntity@51f95f0d[
+  NmHistopatologia=nao realizado
+  id=4
+] 
+2017-05-06 21:31:26.412  INFO 1348 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Starting ImunohistoquimicaRepositoryTest on Usuario-PC with PID 1348 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 21:31:26.432 DEBUG 1348 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 21:31:26.432  INFO 1348 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 21:31:35.139  WARN 1348 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 21:31:37.880  INFO 1348 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Started ImunohistoquimicaRepositoryTest in 12.638 seconds (JVM running for 15.959)
+2017-05-06 21:31:38.413  INFO 1348 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Test FindAll(): []
+2017-05-06 21:32:14.279  INFO 4924 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Starting ImunohistoquimicaRepositoryTest on Usuario-PC with PID 4924 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 21:32:14.280 DEBUG 4924 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 21:32:14.281  INFO 4924 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 21:32:21.157  WARN 4924 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 21:32:24.179  INFO 4924 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Started ImunohistoquimicaRepositoryTest in 10.706 seconds (JVM running for 12.214)
+2017-05-06 21:32:24.516  INFO 4924 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@3f6f3cc[
+  NmImunohistoquimica=positivo
+  id=1
+] 
+2017-05-06 21:36:15.919  INFO 1008 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Starting ImunohistoquimicaRepositoryTest on Usuario-PC with PID 1008 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 21:36:15.920 DEBUG 1008 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 21:36:15.921  INFO 1008 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 21:36:23.409  WARN 1008 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 21:36:26.175  INFO 1008 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Started ImunohistoquimicaRepositoryTest in 11.112 seconds (JVM running for 12.92)
+2017-05-06 21:36:26.474  INFO 1008 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@40ef0af8[
+  NmImunohistoquimica=negativo
+  id=2
+] 
+2017-05-06 21:37:50.088  INFO 4416 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Starting ImunohistoquimicaRepositoryTest on Usuario-PC with PID 4416 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 21:37:50.090 DEBUG 4416 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 21:37:50.090  INFO 4416 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 21:37:57.393  WARN 4416 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 21:37:59.882  INFO 4416 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Started ImunohistoquimicaRepositoryTest in 10.767 seconds (JVM running for 12.247)
+2017-05-06 21:38:00.154  INFO 4416 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@461c3709[
+  NmImunohistoquimica=inconclusivo
+  id=3
+] 
+2017-05-06 21:38:27.605  INFO 2668 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Starting ImunohistoquimicaRepositoryTest on Usuario-PC with PID 2668 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-06 21:38:27.607 DEBUG 2668 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-06 21:38:27.608  INFO 2668 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-06 21:38:34.912  WARN 2668 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-06 21:38:37.254  INFO 2668 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Started ImunohistoquimicaRepositoryTest in 10.366 seconds (JVM running for 11.526)
+2017-05-06 21:38:37.531  INFO 2668 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@413bef78[
+  NmImunohistoquimica=nao realizado
+  id=4
+] 

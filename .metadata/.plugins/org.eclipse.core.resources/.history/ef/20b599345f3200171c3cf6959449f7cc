@@ -1,0 +1,14 @@
+package org.wpattern.helviorezende.endemias.sorotipo;
+
+import javax.persistence.AttributeOverride;
+
+import org.wpattern.helviorezende.endemias.utils.BaseEntity;
+
+@Entity
+@Table(name = "tb_sorotipo")
+@AttributeOverride
+public class SorotipoEntity extends BaseEntity<Long>{
+	
+	
+
+}

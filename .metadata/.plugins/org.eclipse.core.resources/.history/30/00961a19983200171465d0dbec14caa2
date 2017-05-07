@@ -1,0 +1,8 @@
+package org.wpattern.helviorezende.endemias.histopatologia;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity;
+
+public interface HistopatologiaRepository JpaRepository<HistopatologiaEntity, Long>{
+
+}

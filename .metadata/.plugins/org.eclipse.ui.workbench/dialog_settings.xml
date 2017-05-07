@@ -20,8 +20,8 @@
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
-			<item value="getter"/>
-			<item value="cons"/>
+			<item value="gett"/>
+			<item value="constru"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

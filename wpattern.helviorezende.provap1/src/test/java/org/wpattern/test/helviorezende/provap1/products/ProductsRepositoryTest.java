@@ -56,4 +56,6 @@ public class ProductsRepositoryTest extends AbstractTest{
 		List<ProductsEntity> products = this.productsrepository.findAll();
 		LOGGER.info("Products delete: " + products);
 	}
+	
+	
 }

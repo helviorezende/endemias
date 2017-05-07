@@ -18,8 +18,7 @@ public class ExamePcrEntity extends BaseEntity<Long>{
 	private String NmResulPcr;
 
 	public ExamePcrEntity() {
-		super();
-		
+		super();		
 	}
 
 	public String getNmResulPcr() {
@@ -29,9 +28,4 @@ public class ExamePcrEntity extends BaseEntity<Long>{
 	public void setNmResulPcr(String nmResulPcr) {
 		NmResulPcr = nmResulPcr;
 	}
-	
-	
-	
-	
-
 }

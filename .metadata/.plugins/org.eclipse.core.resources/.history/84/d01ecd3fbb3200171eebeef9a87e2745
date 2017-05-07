@@ -1,0 +1,8 @@
+package org.wpattern.helviorezende.endemias.imunohistoquimica;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity;
+
+public interface ImunohistoquimicaRepository extends JpaRepository<ImunohistoquimicaEntity, Long>{
+	
+}
