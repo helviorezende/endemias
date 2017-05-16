@@ -1,6 +1,0 @@
-package org.wpattern.helviorezende.endemias.examens1entity;
-
-public interface ExameNs1Repository extends JpaRepository<ExameNs1Entity, Long>{
-	
-
-}

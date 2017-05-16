@@ -1,9 +1,0 @@
-package org.wpattern.test.helviorezende.endemias.repositories;
-
-import org.apache.log4j.Logger;
-import org.wpattern.test.helviorezende.endemias.utils.AbstractTest;
-
-public class PermissionRespositoryTest extends AbstractTest{
-	private static final Logger LOGGER = Logger.getLogger(PermissionRepositoryTest.class);
-
-}

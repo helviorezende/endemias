@@ -1,9 +1,0 @@
-package org.wpattern.helviorezende.endemias.examepcr;
-
-import org.wpattern.helviorezende.endemias.utils.BaseEntity;
-
-public class ExamePcrEntity extends BaseEntity<Long>{
-	
-	private static final long serialVersionUID = 1L;
-
-}

@@ -24,21 +24,4 @@ public class ExameNs1RepositoryTest extends AbstractTest{
 			LOGGER.info("Test FindAll(): "+ examens1);
 		}
 	}
-	
-	@Test
-	public void testInsert(){
-		ExameNs1Entity examens1 = new ExameNs1Entity();
-		
-		examens1.setNmExameNs1("não realizado");
-		
-		examens1 = this.exameNs1Repository.save(examens1);				
-		LOGGER.info (examens1 + " " );
-	}
-	@Test
-	public void deleteExamens1() {
-		this.exameNs1Repository.delete(5L);
-		List<ExameNs1Entity> examens1 = this.exameNs1Repository.findAll();
-		LOGGER.info("Examens1 delete: " + examens1);
-	}
-
 }

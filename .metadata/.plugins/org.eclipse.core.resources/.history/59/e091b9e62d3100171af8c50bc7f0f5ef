@@ -1,6 +1,0 @@
-package org.wpattern.helviorezende.endemias.examepcr;
-
-public interface ExamePcrRepository extends JpaRepository<ExamePcrEntity, Long>{
-	
-
-}

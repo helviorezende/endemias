@@ -25,14 +25,4 @@ public class ExameViralRepositoryTest extends AbstractTest{
 		}
 	}
 	
-	@Test
-	public void testInsert(){
-		ExameViralEntity exameviral = new ExameViralEntity();
-		
-		exameviral.setNmResulVi("não realizado");
-		
-		exameviral = this.exameViralRepository.save(exameviral);				
-		LOGGER.info (exameviral + " " );
-	}
-
 }

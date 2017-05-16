@@ -9,7 +9,7 @@ import org.wpattern.helviorezende.endemias.utils.BaseEntity;
 
 @Entity
 @Table(name = "tb_exame_ns1")
-@AttributeOverride(name = "id",column = @Column(name = "exame_ns1"))
+@AttributeOverride(name = "id",column = @Column(name = "resul_ns1"))
 public class ExameNs1Entity extends BaseEntity<Long>{
 	
 	private static final long serialVersionUID = 1L;

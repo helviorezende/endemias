@@ -24,14 +24,4 @@ public class HistopatologiaRepositoryTest extends AbstractTest{
 			LOGGER.info("Test FindAll(): "+ histopatologia);
 		}
 	}
-	
-	@Test
-	public void testInsert(){
-		HistopatologiaEntity histopatologia = new HistopatologiaEntity();
-		
-		histopatologia.setNmHistopatologia("nao realizado");
-		
-		histopatologia = this.histopatologiaRepository.save(histopatologia);				
-		LOGGER.info (histopatologia + " " );
-	}
 }

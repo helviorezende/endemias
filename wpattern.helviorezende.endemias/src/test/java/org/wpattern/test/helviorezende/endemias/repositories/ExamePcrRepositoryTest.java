@@ -25,15 +25,4 @@ public class ExamePcrRepositoryTest extends AbstractTest{
 		}
 	}
 	
-	@Test
-	public void testInsert(){
-		ExamePcrEntity examepcr = new ExamePcrEntity();
-		
-		examepcr.setNmResulPcr("não realizado");
-		
-		examepcr = this.examePcrRepository.save(examepcr);				
-		LOGGER.info (examepcr + " " );
-	}
-	
-
 }

@@ -1,7 +1,0 @@
-package org.wpattern.test.helviorezende.endemias.repositories;
-
-public class ExameNs1RepositoryTest extends AbstractTest{
-	
-	private static final Logger LOGGER = 
-
-}

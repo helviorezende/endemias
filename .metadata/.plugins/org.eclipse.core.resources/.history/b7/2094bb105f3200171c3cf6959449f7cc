@@ -1,7 +1,0 @@
-package org.wpattern.helviorezende.endemias.sorotipo;
-
-public class SorotipoEntity extends BaseEntity<Long>{
-	
-	
-
-}
