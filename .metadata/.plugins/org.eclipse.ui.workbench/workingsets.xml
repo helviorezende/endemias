@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1495067439342_2" label="Projtos 2017" name="Projtos 2017">
+<item elementID="=wpattern.helviorezende.endemias" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1488513143053_0" label="Window Working Set" name="Aggregate for window 1488513143052"/>
 </workingSetManager>

@@ -1,0 +1,9 @@
+package org.wpattern.helviorezende.endemias.paciente;
+
+import java.util.ArrayList;
+
+public interface IPacienteServiceCsv {
+	
+	public ArrayList<PacienteEntity> getListOfPacientes();
+
+}

@@ -1,8 +1,0 @@
-package org.wpattern.helviorezende.endemias.classificacao;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity;
-
-public interface ClassificacaoRepository extends JpaRepository<ClassificacaoEntity, Long>{
-
-}

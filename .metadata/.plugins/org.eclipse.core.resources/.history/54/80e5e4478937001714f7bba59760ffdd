@@ -1,8 +1,0 @@
-package org.wpattern.helviorezende.endemias.criterio;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.wpattern.helviorezende.endemias.examepcr.ExamePcrEntity;
-
-public interface CriterioRepository extends JpaRepository<CriterioEntity, Long>{
-	
-}

@@ -1,0 +1,11 @@
+package org.wpattern.helviorezende.endemias.utils;
+
+import java.io.Serializable;
+
+import ch.qos.logback.classic.Logger;
+
+public abstract class GenericService<T extends BaseEntity<ID>, ID extends Serializable> {
+	
+	private final Logger LOGGER = Logger.getLogger(this.getClass());
+
+}

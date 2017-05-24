@@ -1,0 +1,9 @@
+package org.wpattern.helviorezende.endemias.writedbf;
+
+import org.junit.runner.RunWith;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class WritedbfApplicationTests {
+
+}

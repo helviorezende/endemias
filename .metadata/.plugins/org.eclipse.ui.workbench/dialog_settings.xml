@@ -4,24 +4,18 @@
 		<item value="374" key="DIALOG_X_ORIGIN"/>
 		<item value="8" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="EditorSelectionDialog">
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="250" key="dialogHeight"/>
 		<item value="350" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
-			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
-			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textArray">
-			<item value="gett"/>
-			<item value="using"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

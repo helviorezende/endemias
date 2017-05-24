@@ -1342,3 +1342,778 @@ Caused by: org.hibernate.AnnotationException: Use of @OneToMany or @ManyToMany t
   NmHospitalizado=ignorado
   id=9
 ]]
+2017-05-16 21:36:43.151  INFO 2972 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Starting ImunohistoquimicaRepositoryTest on Usuario-PC with PID 2972 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 21:36:43.167 DEBUG 2972 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 21:36:43.168  INFO 2972 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : No active profile set, falling back to default profiles: default
+2017-05-16 21:36:52.197  WARN 2972 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 21:36:55.262  INFO 2972 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Started ImunohistoquimicaRepositoryTest in 13.124 seconds (JVM running for 16.22)
+2017-05-16 21:36:56.051  INFO 2972 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : Test FindAll(): [org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@160b4809[
+  NmImunohistoquimica=positivo
+  id=1
+], org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@4f281aaf[
+  NmImunohistoquimica=negativo
+  id=2
+], org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@5d508d22[
+  NmImunohistoquimica=inconclusivo
+  id=3
+], org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@f2b90fc[
+  NmImunohistoquimica=nao realizado
+  id=4
+]]
+2017-05-16 21:36:56.182  INFO 2972 --- [main] .t.h.e.r.ImunohistoquimicaRepositoryTest : org.wpattern.helviorezende.endemias.imunohistoquimica.ImunohistoquimicaEntity@8054fe2[
+  NmImunohistoquimica=nao realizado
+  id=5
+] 
+2017-05-16 21:42:03.621  INFO 840 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Starting SorotipoRepositoryTest on Usuario-PC with PID 840 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 21:42:03.622 DEBUG 840 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 21:42:03.623  INFO 840 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 21:42:10.165  WARN 840 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 21:42:13.109  INFO 840 --- [main] o.w.t.h.e.r.SorotipoRepositoryTest       : Started SorotipoRepositoryTest in 10.304 seconds (JVM running for 11.655)
+2017-05-16 21:42:13.626  INFO 840 --- [main] o.w.t.h.e.r.ExamePcrRepositoryTest       : Test FindAll(): [org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@19b02dfd[
+  NmSorotipo=den 1
+  id=1
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@45292ec1[
+  NmSorotipo=den 2
+  id=2
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@3a7c678b[
+  NmSorotipo=den 3
+  id=3
+], org.wpattern.helviorezende.endemias.sorotipo.SorotipoEntity@28babeca[
+  NmSorotipo=den 4
+  id=4
+]]
+2017-05-16 22:00:01.066  INFO 4884 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Starting PacienteRepositoryTest on Usuario-PC with PID 4884 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 22:00:01.068 DEBUG 4884 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 22:00:01.070  INFO 4884 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 22:00:08.177  WARN 4884 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 22:00:11.168  INFO 4884 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Started PacienteRepositoryTest in 10.745 seconds (JVM running for 12.321)
+2017-05-16 22:00:11.585  WARN 4884 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2017-05-16 22:00:11.587 ERROR 4884 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'pacienteen0_.id' in 'field list'
+2017-05-16 22:01:57.869  INFO 612 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Starting PacienteRepositoryTest on Usuario-PC with PID 612 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 22:01:57.871 DEBUG 612 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 22:01:57.871  INFO 612 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 22:02:04.588  WARN 612 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 22:02:07.644  INFO 612 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Started PacienteRepositoryTest in 10.494 seconds (JVM running for 11.781)
+2017-05-16 22:02:08.016  WARN 612 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2017-05-16 22:02:08.018 ERROR 612 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'pacienteen0_.cod_logradouro' in 'field list'
+2017-05-16 22:06:18.276  INFO 1524 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Starting PacienteRepositoryTest on Usuario-PC with PID 1524 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 22:06:18.277 DEBUG 1524 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 22:06:18.278  INFO 1524 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 22:06:25.457  WARN 1524 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 22:06:28.615  INFO 1524 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Started PacienteRepositoryTest in 11.033 seconds (JVM running for 12.169)
+2017-05-16 22:06:28.987  WARN 1524 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2017-05-16 22:06:28.989 ERROR 1524 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'pacienteen0_.cod_logradouro' in 'field list'
+2017-05-16 22:09:52.098  INFO 1064 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Starting PacienteRepositoryTest on Usuario-PC with PID 1064 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 22:09:52.100 DEBUG 1064 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 22:09:52.101  INFO 1064 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 22:09:59.452  WARN 1064 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 22:10:02.510  INFO 1064 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Started PacienteRepositoryTest in 11.073 seconds (JVM running for 12.338)
+2017-05-16 22:10:02.913  WARN 1064 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2017-05-16 22:10:02.914 ERROR 1064 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'pacienteen0_.cod_logradouro' in 'field list'
+2017-05-16 22:12:17.842  INFO 2332 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Starting PacienteRepositoryTest on Usuario-PC with PID 2332 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 22:12:17.844 DEBUG 2332 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 22:12:17.845  INFO 2332 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 22:12:25.140  WARN 2332 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 22:12:28.304  INFO 2332 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Started PacienteRepositoryTest in 11.218 seconds (JVM running for 12.349)
+2017-05-16 22:12:28.667  WARN 2332 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2017-05-16 22:12:28.668 ERROR 2332 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'pacienteen0_.nm_mae_paciente' in 'field list'
+2017-05-16 22:16:25.033  INFO 4784 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Starting PacienteRepositoryTest on Usuario-PC with PID 4784 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-16 22:16:25.034 DEBUG 4784 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-16 22:16:25.034  INFO 4784 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : No active profile set, falling back to default profiles: default
+2017-05-16 22:16:31.458  WARN 4784 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-16 22:16:34.095  INFO 4784 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Started PacienteRepositoryTest in 9.788 seconds (JVM running for 11.147)
+2017-05-16 22:16:34.464  INFO 4784 --- [main] o.w.t.h.e.r.PacienteRepositoryTest       : Test FindAll(): []
+2017-05-17 13:39:26.858  INFO 3204 --- [main] o.w.t.h.e.r.ClassificacaoRepositoryTest  : Starting ClassificacaoRepositoryTest on Usuario-PC with PID 3204 (C:\endemias\wpattern.helviorezende.endemias\target\test-classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-17 13:39:26.888 DEBUG 3204 --- [main] o.w.t.h.e.r.ClassificacaoRepositoryTest  : Running with Spring Boot v1.3.3.RELEASE, Spring v4.2.5.RELEASE
+2017-05-17 13:39:26.890  INFO 3204 --- [main] o.w.t.h.e.r.ClassificacaoRepositoryTest  : No active profile set, falling back to default profiles: default
+2017-05-17 13:39:35.509  WARN 3204 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-17 13:39:38.418  INFO 3204 --- [main] o.w.t.h.e.r.ClassificacaoRepositoryTest  : Started ClassificacaoRepositoryTest in 12.555 seconds (JVM running for 15.151)
+2017-05-17 13:39:39.033  INFO 3204 --- [main] o.w.t.h.e.r.ClassificacaoRepositoryTest  : Test FindAll(): [org.wpattern.helviorezende.endemias.classificacao.ClassificacaoEntity@459003a0[
+  NmClassificacao=descartado
+  id=5
+], org.wpattern.helviorezende.endemias.classificacao.ClassificacaoEntity@787e4357[
+  NmClassificacao=dengue
+  id=10
+], org.wpattern.helviorezende.endemias.classificacao.ClassificacaoEntity@392781e[
+  NmClassificacao=dengue com sinais de alarme
+  id=11
+], org.wpattern.helviorezende.endemias.classificacao.ClassificacaoEntity@3fcbc766[
+  NmClassificacao=dengue grave
+  id=12
+]]
+2017-05-22 21:33:13.346  INFO 4572 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 4572 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-22 21:33:13.366  INFO 4572 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-22 21:33:22.248  INFO 4572 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-22 21:33:22.248  INFO 4572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-22 21:33:22.701  INFO 4572 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-22 21:33:28.153  WARN 4572 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-22 21:33:31.994  INFO 4572 --- [main] o.w.helviorezende.endemias.AppMain       : Started AppMain in 21.379 seconds (JVM running for 25.51)
+2017-05-22 21:35:03.494  INFO 4572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-22 21:35:04.243  WARN 4572 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1054, SQLState: 42S22
+2017-05-22 21:35:04.243 ERROR 4572 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'data_nascimento' in 'field list'
+2017-05-22 21:35:04.246  WARN 4572 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 1054, SQLState: 42S22
+2017-05-22 21:35:04.246  WARN 4572 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unknown column 'data_nascimento' in 'field list'
+2017-05-22 21:35:04.293 ERROR 4572 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement] with root cause
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'data_nascimento' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2073) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2009) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5094) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1994) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:492) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:197) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:181) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:216) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:334) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:289) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy88.persist(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:294) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy88.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:439) ~[spring-data-jpa-1.9.4.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:483) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:468) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:440) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.11.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:131) ~[spring-data-jpa-1.9.4.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208) ~[spring-aop-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at com.sun.proxy.$Proxy90.save(Unknown Source) ~[na:na]
+	at org.wpattern.helviorezende.endemias.paciente.PacienteService.writeAndSaveListCsv(PacienteService.java:33) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844) ~[spring-webmvc-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:207) ~[spring-security-web-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176) ~[spring-security-web-4.0.3.RELEASE.jar:4.0.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+
+2017-05-22 21:39:51.681  INFO 1584 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 1584 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-22 21:39:51.691  INFO 1584 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-22 21:39:57.428  INFO 1584 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-22 21:39:57.430  INFO 1584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-22 21:39:57.645  INFO 1584 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-22 21:40:01.619  WARN 1584 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-22 21:40:02.298  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-22 21:40:02.298  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-22 21:40:02.298  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-22 21:40:02.308  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-22 21:40:02.318  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-22 21:40:02.318  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-22 21:40:02.318  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-22 21:40:02.318  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-22 21:40:02.318  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-22 21:40:02.318  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-22 21:40:02.328  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-22 21:40:02.328  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-22 21:40:02.338  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-22 21:40:02.348  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-22 21:40:02.348  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-22 21:40:02.348  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-22 21:40:02.358  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-22 21:40:02.358  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-22 21:40:02.368  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-22 21:40:02.378  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-22 21:40:02.378  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-22 21:40:02.378  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-22 21:40:02.388  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-22 21:40:02.388  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-22 21:40:02.388  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-22 21:40:02.388  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-22 21:40:02.398  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-22 21:40:02.398  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-22 21:40:02.398  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-22 21:40:02.398  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-22 21:40:02.398  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-22 21:40:02.398  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-22 21:40:02.408  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-22 21:40:02.408  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-22 21:40:02.408  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-22 21:40:02.418  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-22 21:40:02.428  INFO 1584 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-22 21:40:11.709 ERROR 1584 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_111]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_111]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_111]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_111]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:340) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:765) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:473) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:986) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) [tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:194) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:151) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+
+2017-05-22 21:40:11.713 ERROR 1584 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:239) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:194) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:151) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_111]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_111]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_111]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_111]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:340) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:765) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:473) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:986) ~[tomcat-embed-core-8.0.32.jar:8.0.32]
+	... 14 common frames omitted
+
+2017-05-22 21:40:11.730  INFO 1584 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-05-22 21:40:11.958 ERROR 1584 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.boot.context.embedded.EmbeddedServletContainerException: Unable to start embedded Tomcat servlet container
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:165) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:293) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:141) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:159) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	... 10 common frames omitted
+
+2017-05-22 21:41:50.462  INFO 5456 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 5456 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-22 21:41:50.462  INFO 5456 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-22 21:41:55.575  INFO 5456 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-22 21:41:55.578  INFO 5456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-22 21:41:55.831  INFO 5456 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-22 21:41:59.671  WARN 5456 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-22 21:42:02.871  INFO 5456 --- [main] o.w.helviorezende.endemias.AppMain       : Started AppMain in 13.083 seconds (JVM running for 13.838)
+2017-05-22 21:42:23.266  INFO 5456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-23 21:23:04.253  INFO 3692 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 3692 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-23 21:23:04.272  INFO 3692 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-23 21:23:11.498  INFO 3692 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-23 21:23:11.501  INFO 3692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-23 21:23:12.105  INFO 3692 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-23 21:23:20.457 ERROR 3692 --- [main] o.a.tomcat.jdbc.pool.ConnectionPool      : Unable to create initial connections of pool.
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2165) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2090) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:708) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:642) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:464) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) [tomcat-jdbc-8.0.32.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) [spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) [spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'bd_dengue2'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1694) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1215) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2255) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2106) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	... 52 common frames omitted
+
+2017-05-23 21:23:20.467  WARN 3692 --- [main] o.h.e.jdbc.internal.JdbcServicesImpl     : HHH000342: Could not obtain connection to query metadata : Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-05-23 21:23:20.472  WARN 3692 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+2017-05-23 21:23:20.484  INFO 3692 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-05-23 21:23:20.632 ERROR 3692 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:104) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:71) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:205) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 16 common frames omitted
+
+2017-05-23 21:23:20.636  WARN 3692 --- [main] o.s.boot.SpringApplication               : Error handling failed (Error creating bean with name 'delegatingApplicationListener' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined)
+2017-05-23 21:26:16.695  INFO 3692 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 3692 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-23 21:26:16.731  INFO 3692 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-23 21:26:22.486  INFO 3692 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-23 21:26:22.488  INFO 3692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-23 21:26:22.710  INFO 3692 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-23 21:26:30.086 ERROR 3692 --- [main] o.a.tomcat.jdbc.pool.ConnectionPool      : Unable to create initial connections of pool.
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:917) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:896) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:885) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2165) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2090) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:795) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:327) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307) ~[tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200) ~[tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:708) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:642) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:464) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102) [tomcat-jdbc-8.0.32.jar:na]
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126) [tomcat-jdbc-8.0.32.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) [hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) [hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) [spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) [spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) [spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'bd_dengue2'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.Util.getInstance(Util.java:387) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1694) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1215) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2255) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2106) ~[mysql-connector-java-5.1.38.jar:5.1.38]
+	... 52 common frames omitted
+
+2017-05-23 21:26:30.093  WARN 3692 --- [main] o.h.e.jdbc.internal.JdbcServicesImpl     : HHH000342: Could not obtain connection to query metadata : Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2017-05-23 21:26:30.098  WARN 3692 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+2017-05-23 21:26:30.117  INFO 3692 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2017-05-23 21:26:30.131 ERROR 3692 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1054) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:829) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538) ~[spring-context-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118) ~[spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:766) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.createAndRefreshContext(SpringApplication.java:361) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1191) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1180) [spring-boot-1.3.3.RELEASE.jar:1.3.3.RELEASE]
+	at org.wpattern.helviorezende.endemias.AppMain.main(AppMain.java:11) [classes/:na]
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:104) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:71) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:205) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849) ~[hibernate-entitymanager-4.3.11.Final.jar:4.3.11.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:319) ~[spring-orm-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	... 16 common frames omitted
+
+2017-05-23 21:26:30.136  WARN 3692 --- [main] o.s.boot.SpringApplication               : Error handling failed (Error creating bean with name 'delegatingApplicationListener' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' is defined)
+2017-05-23 21:28:45.257  INFO 4372 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 4372 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-23 21:28:45.263  INFO 4372 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-23 21:28:51.081  INFO 4372 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-23 21:28:51.084  INFO 4372 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-23 21:28:51.323  INFO 4372 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-23 21:28:54.999  WARN 4372 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-23 21:28:55.749  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-23 21:28:55.751  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-23 21:28:55.753  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-23 21:28:55.755  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-23 21:28:55.756  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-23 21:28:55.758  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-23 21:28:55.759  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-23 21:28:55.761  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-23 21:28:55.762  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-23 21:28:55.764  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-23 21:28:55.766  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-23 21:28:55.768  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-23 21:28:55.769  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-23 21:28:55.770  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-23 21:28:55.774  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-23 21:28:55.775  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-23 21:28:55.777  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-23 21:28:55.778  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-23 21:28:55.780  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-23 21:28:55.781  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-23 21:28:55.783  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-23 21:28:55.784  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-23 21:28:55.785  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-23 21:28:55.787  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-23 21:28:55.788  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-23 21:28:55.790  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-23 21:28:55.791  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-23 21:28:55.792  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-23 21:28:55.794  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-23 21:28:55.795  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-23 21:28:55.796  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-23 21:28:55.798  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-23 21:28:55.799  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-23 21:28:55.800  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-23 21:28:55.801  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-23 21:28:55.802  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-23 21:28:55.803  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-23 21:28:55.804  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-23 21:28:55.805  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-23 21:28:55.806  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-23 21:28:55.807  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-23 21:28:55.808  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-23 21:28:55.809  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-23 21:28:55.810  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-23 21:28:55.811  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-23 21:28:55.812  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-23 21:28:55.813  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-23 21:28:55.814  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-23 21:28:55.818  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-23 21:28:55.819  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-23 21:28:55.820  INFO 4372 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-23 21:29:05.966  INFO 4372 --- [main] o.w.helviorezende.endemias.AppMain       : Started AppMain in 21.354 seconds (JVM running for 22.054)
+2017-05-23 21:29:47.340  INFO 4372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-05-23 21:37:02.181  INFO 4716 --- [main] o.w.helviorezende.endemias.AppMain       : Starting AppMain on Usuario-PC with PID 4716 (C:\endemias\wpattern.helviorezende.endemias\target\classes started by Usuario in C:\endemias\wpattern.helviorezende.endemias)
+2017-05-23 21:37:02.187  INFO 4716 --- [main] o.w.helviorezende.endemias.AppMain       : No active profile set, falling back to default profiles: default
+2017-05-23 21:37:07.270  INFO 4716 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-05-23 21:37:07.272  INFO 4716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2017-05-23 21:37:07.536  INFO 4716 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-05-23 21:37:11.790  WARN 4716 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): org.wpattern.helviorezende.endemias.userpermission.UserPermissionKey
+2017-05-23 21:37:12.533  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-23 21:37:12.535  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-23 21:37:12.537  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-23 21:37:12.538  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-23 21:37:12.540  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-23 21:37:12.541  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-23 21:37:12.543  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-23 21:37:12.544  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-23 21:37:12.546  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-23 21:37:12.547  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-23 21:37:12.549  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-23 21:37:12.551  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-23 21:37:12.553  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-23 21:37:12.568  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-23 21:37:12.577  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-23 21:37:12.580  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-23 21:37:12.583  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-23 21:37:12.592  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-23 21:37:12.595  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-23 21:37:12.596  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-23 21:37:12.598  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-23 21:37:12.603  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-23 21:37:12.616  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-23 21:37:12.617  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-23 21:37:12.624  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-23 21:37:12.625  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-23 21:37:12.627  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-23 21:37:12.629  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-23 21:37:12.630  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-23 21:37:12.631  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-23 21:37:12.632  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-23 21:37:12.634  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-23 21:37:12.635  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-23 21:37:12.636  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-23 21:37:12.638  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_classificacao
+2017-05-23 21:37:12.639  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_criterio
+2017-05-23 21:37:12.640  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_evolucao
+2017-05-23 21:37:12.642  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_ns1
+2017-05-23 21:37:12.643  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_pcr
+2017-05-23 21:37:12.645  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_exame_viral
+2017-05-23 21:37:12.646  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_examesorologico
+2017-05-23 21:37:12.648  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_gestante
+2017-05-23 21:37:12.650  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_histopatologia
+2017-05-23 21:37:12.652  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizacao
+2017-05-23 21:37:12.653  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_hospitalizado
+2017-05-23 21:37:12.654  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_imunohistoquimica
+2017-05-23 21:37:12.655  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_paciente
+2017-05-23 21:37:12.656  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_permission
+2017-05-23 21:37:12.657  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_sorotipo
+2017-05-23 21:37:12.658  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user
+2017-05-23 21:37:12.660  INFO 4716 --- [main] java.sql.DatabaseMetaData                : HHH000262: Table not found: tb_user_permission
+2017-05-23 21:37:22.680  INFO 4716 --- [main] o.w.helviorezende.endemias.AppMain       : Started AppMain in 21.52 seconds (JVM running for 22.252)
+2017-05-23 21:37:28.485  INFO 4716 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'

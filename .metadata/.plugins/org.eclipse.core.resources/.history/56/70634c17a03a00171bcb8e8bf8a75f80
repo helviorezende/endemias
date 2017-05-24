@@ -1,0 +1,31 @@
+package org.wpattern.helviorezende.endemias.hospitalizacao;
+
+import java.util.Date;
+
+import javax.persistence.AttributeOverride;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import org.wpattern.helviorezende.endemias.utils.BaseEntity;
+
+@Entity
+@Table(name = "tb_hospitalizacao")
+@AttributeOverride(name = "id", column = @Column(name = "id_hospitalizacao"))
+public class HospitalizacaoEntity extends BaseEntity<Long>{
+	
+	private static final long serialVersionUID = 1L;
+	
+	@Column(name = "id_paciente")
+	private Long idPaciente;
+	
+	@Column(name = "dt_interna")
+	private Date dtInterna;
+	
+	@Column(name = "id_unidadeSaude")
+	private Long idUnidadeSaude;
+	
+	@Column(name = "id_hospitalizado")
+	private Long idHospitalizado;
+
+}

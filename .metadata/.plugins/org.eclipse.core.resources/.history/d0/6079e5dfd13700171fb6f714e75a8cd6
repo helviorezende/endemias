@@ -1,8 +1,0 @@
-package org.wpattern.helviorezende.endemias.evolucao;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.wpattern.helviorezende.endemias.criterio.CriterioEntity;
-
-public class EvolucaoRepository extends JpaRepository<EvolucaoEntity, Long>{
-	
-}

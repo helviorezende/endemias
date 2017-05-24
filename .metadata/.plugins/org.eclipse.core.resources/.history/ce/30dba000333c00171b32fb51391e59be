@@ -1,0 +1,34 @@
+package org.wpattern.helviorezende.endemias.paciente;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.ArrayList;
+
+import com.opencsv.CSVReader;
+
+@service
+public class PacienteServiceCsv implements IPacienteServiceCsv{
+	
+	private final ArrayList<PacienteEntity> pacientes;
+	
+	public PacienteServiceCsv(){
+		pacientes = new ArrayList();
+	}
+
+	@Override
+	public ArrayList<PacienteEntity> getListofPacientes(){
+		FileInputStream fis = null;
+		
+		try{
+			String fileName = "src/main/resourdes/dengon2015.dbf";
+			
+			fis = new FileInputStream(new File(fileName));
+			CSVReader reader = new CSVReader(new inputStreamReader(fis));
+			String[] nextLine;
+			while ((nextLine = reader.readNext()) !=null){
+				PacienteEntity newPaciente = new Paciente(nextLine[0], Integer.valueOf(nextLine[1]));
+				pacientes.add(newPaciente);
+				}
+		
+	}
+}

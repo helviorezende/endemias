@@ -1,0 +1,34 @@
+package org.wpattern.helviorezende.endemias.paciente;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.wpattern.helviorezende.endemias.utils.GenericService;
+
+@RestController
+@RequestMapping(path = "api/private/PacienteEntity")
+public class PacienteService extends GenericService<PacienteEntity, Long> {
+	
+	@Autowired
+	private PacienteServiceCsv pacienteServiceCsv;
+	
+	@Autowired
+	private PacienteRepository pacienteRepository;
+	
+	@RequestMapping(path = "/writeandlistcsv")
+	public List<PacienteEntity> writeAndSaveListCsv(){
+		
+		List<PacienteEntity> pacientes = pacienteServiceCsv.getListOfPacientes();
+		
+		for (PacienteEntity pacientecsv : pacientes) {
+			PacienteEntity paciente = new PacienteEntity();
+			paciente.setName(pacientecsv.getName());
+			paciente.setNascimento(pacientecsv.getNascimento());
+			 this.pacienteRepository.save(paciente);
+		}
+		return pacientes;
+	}
+
+}

@@ -1,0 +1,12 @@
+package org.wpattern.helviorezende.endemias.paciente;
+
+@service
+public class PacienteServiceCsv implements IPacienteServiceCsv{
+	
+	private final ArrayList<PacienteEntity> pacientes;
+	
+	public PacienteServiceCsv(){
+		pacientes = new ArrayList():
+	}
+
+}

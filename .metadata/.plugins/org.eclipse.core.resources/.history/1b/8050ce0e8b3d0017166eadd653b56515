@@ -1,0 +1,63 @@
+package org.wpattern.helviorezende.endemias.paciente;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.logging.Level;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Service;
+
+import com.opencsv.CSVReader;
+
+
+@Service
+public class PacienteServiceCsv implements IPacienteServiceCsv{
+	
+	private final ArrayList<PacienteEntity> pacientes;
+	
+	public PacienteServiceCsv(){
+		pacientes = new ArrayList();
+	}
+
+	@Override
+	public ArrayList<PacienteEntity> getListOfPacientes(){
+		
+		FileInputStream fis = null;
+		
+		try{
+			String fileName = "src/main/resourdes/dengon2015.dbf";
+			
+			fis = new FileInputStream(new File(fileName));
+			CSVReader reader = new CSVReader(new InputStreamReader(fis));
+			String[] nextLine;
+            reader.readNext();
+            while ((nextLine = reader.readNext()) != null) {
+            	
+                Paciente newPaciente = new Paciente(nextLine[0], Integer.valueOf(nextLine[1]));
+                paciente.add(newPaciente);
+            }
+			catch (FileNotFoundException ex ){
+				Logger.getLogger(PacienteService.class.getName()).log(Level.SEVERE, null, ex);
+				
+			}
+			catch (IoException ex){
+				Logger.getLogger(PacienteService.class.getName()).log(Level.SEVERE, null, ex);
+			}
+			finally{
+				try {
+					if(fis != null){
+						fis.close();
+					}
+				}
+				catch (IOException ex){
+					Logger.getLogger(PacienteService.class.getName()).log(Level.SEVERE, null, ex);
+				}
+			}
+			return paciente;
+		}
+	}
+}
